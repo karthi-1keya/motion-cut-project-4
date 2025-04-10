@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magazine Cover</title>
+    <style>
+        
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #000000;
+            font-family: 'Raleway', sans-serif;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .image-container {
+            position: relative; 
+            width: 100%;
+            height: 100vh;
+        }
+
+        img {
+            height: 90%;
+            width: auto;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 5px 5px 15px rgba(143, 30, 30, 0.3);
+        }
+
+       
+
+        .king-text {
+            position: absolute;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: rgb(40, 171, 165);
+            font-family: 'Lucida Handwriting', serif;
+            text-transform: uppercase;
+            text-align: center;
+            font-size: 2rem;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        .tata-text {
+            position: absolute;
+            top: 60px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: rgb(51, 141, 37);
+            font-family: 'Lucida Handwriting', serif;
+            text-transform: uppercase;
+            text-align: center;
+            font-size: 2rem;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="image-container">
+        <div class="overlay"></div>
+        <img src="C:\Users\KARTHIKEYA\Pictures\Screenshots\Screenshot 2025-04-10 234623.png" alt="AI ART">
+        <div class="king-text"># Artists Aren’t Happy</div>
+        <div class="tata-text">photorealistic</div>
+    </div>
+</body>
+</html>
